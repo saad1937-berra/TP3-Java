@@ -8,8 +8,8 @@ public class Segment {
     }
 
     public Segment(Point a, Point b) {
-        this.a = a;
-        this.b = b;
+        this.a = new Point(a.getX(), a.getY());
+        this.b = new Point(b.getX(), b.getY());
     }
 
     public Segment(int x1, int y1, int x2, int y2) {

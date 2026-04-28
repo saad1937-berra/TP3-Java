@@ -5,7 +5,7 @@ class CarreTest {
 	System.out.println("Carre \n"+c) ;
 	System.out.println("De perimetre "+c.perimetre()) ;
 	// test du constructeur avec valeurs d'initialisation
-	Point p = new Point(0,0) ;
+	Point p = new Point(0,2) ;
 	c = new Carre(p, 2) ;
 	System.out.println("Carre \n"+c) ;
 	System.out.println("De perimetre "+c.perimetre()) ;
